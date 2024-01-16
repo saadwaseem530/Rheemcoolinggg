@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Rheem Cooling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto&family=Urbanist:wght@400;800;900&display=swap');
+        *{
+            font-family: 'Urbanist', sans-serif;
+
+        }
+        a{
+text-decoration: none;
+color: black;
+        }
+        li{
+            list-style: none;
+    
+            
+
+        }
+      
+    </style>
+    <script>
+    
+ 
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+function openNa() {
+  document.getElementById("mySidena").style.width = "250px";
+}
+function closeNa() {
+  document.getElementById("mySidena").style.width = "0";
+} 
+    </script>
+   
+
+  </head>
+  <body>
+     <!-- <header> -->
+      <nav class="navbar navbar-expand-lg" style="border-bottom: 5px solid rgb(240, 240, 240);">
+        <div class="container-fluid">
+          <div id="mySidena" class="side-nav d-lg-none" style="z-index: 2;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNa()">&times;</a>
+                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                <li class="nav-item dropdown side-na">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style=" color: #ffffff;">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu side-n" aria-labelledby="navbarDropdown" style="background-color: black;">
+                    <li><a class="dropdown-item" href="#">Split AC</a></li>
+                    <li><a class="dropdown-item" href="#">Window AC</a></li>
+                    <li><a class="dropdown-item" href="#">Cassette AC</a></li>
+                  </ul>
+                </li>
+                <a class="nav-link active " aria-current="page" href="Blog.html">Blog</a>
+                <a class="nav-link active " aria-current="page" href="/FAQs.html">FAQs</a>
+                <a class="nav-link active " aria-current="page" href="/contact.html">Contact Us</a>
+          </div>
+          <span onclick="openNa()" class="d-lg-none"><img src="assets/img/icon-list.png" alt=""></span>
+          <div id="main" class="d-lg-none">
+          </div>
+          <!-- // -->
+          <a class="navbar-brand" href="#"><img src="assets/img/Black White Minimalist Letter RC Logo.png" width="100%" height="60px"  alt=""></a>
+          
+          <input type="text" class="block d-none d-lg-block" style="width: 50%;display: flex;margin-left: 32%;margin-bottom: 20px;border: none;border-bottom: 2px solid rgb(221, 221, 221);outline: none;" class="next d-none d-lg-block" placeholder="What are you looking?">
+          <form class="d-flex ms-auto " role="search">
+            <span>
+              <div class="search-container">
+                <input type="text" class="form-control search-input d-lg-none" placeholder="What are you looking?">
+                <button class="search-button" onclick="expandSearch()"><i class="fa fa-search"></i></button>
+              </div>
+            </span>
+                
+              <span> 
+                <button type="button" class="btn d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="assets/img/2014807-200.png" width="100%" height="20px" alt="">
+                </button>
+              </span>
+              <span class="d-none d-lg-block" style="margin-top: 8px;z-index: 2;" >
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <h5 class="modal-title" style="border-bottom: 5px solid rgb(240, 240, 240);padding-left: 10px;"id="exampleModalLabel"> Your Cart</h5>
+                  <p style="font-size: smaller;font-weight: 600;padding-left: 10px;">You have no items in your shopping cart.</p>
+                </div>
+                
+            
+                <span onclick="openNav()"><img src="assets/img/shopping-cart-icon-512x462-yrde1eu0.png" style="cursor: pointer;" width="55%" height="22px" alt=""></span>
+                
+               
+                <div id="main">
+                  
+                </div>
+              </span>
+            </form>
+          </div>
+        </nav>
+      <!-- </header>  -->
+      <!-- <nav> -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block" style="position: sticky;top: 1px;background: white;z-index: 1;border-bottom: 5px solid rgb(245, 245, 245);">
+          <div class="container-fluid d-none d-lg-block" style="border-bottom: 5px solid rgb(240, 240, 240);">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" style="margin-left: 50px;">
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle hc" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="splitac.html">Split AC</a></li>
+                    <li><a class="dropdown-item" href="windowac.html">Window AC</a></li>
+                    <li><a class="dropdown-item" href="casetteac.html">Cassette AC</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="FAQs.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!-- </nav> -->
+<!-- main image -->
+<div class="container">
+<div class="col-12">
+    <img  class="w-100" src="https://orient.com.pk/cdn/shop/collections/DC_Inverter-desktop.jpg?v=1657869618"  width="100%"  alt="">
+</div>
+</div>
+<!-- main image -->
+<!-- heading -->
+<div class="container">
+    <p  style="font-size: 12px; font-weight: 500; " class="mt-4" >HOME / WINDOW AIR CONDITIONERS</p>
+    <h5 style=" font-size: 30px; " >Window Air Conditioners
+    </h5>
+<span class="d-flex" >
+    <div class="col-6 col-lg-4">    <h5  class="mt-4" style="font-weight:800; font-size: 15px; ">FILTERS</h5>
+    </div>
+<div class="col-6 d-flex col-lg-8    ">
+  <h5 class="mt-4 d-none d-lg-block " style="font-weight:500; font-size: 15px; ">Sort By :</h5>
+  <h5 class="mt-4 ms-auto d-block d-lg-none " style="font-weight:500; font-size: 15px; ">Sort By :</h5>
+<select class="mt-4 ms-2 " style="width: 10%; height: 25px; " name="splitac" id="">
+<option value="0">Featured</option>
+<option value="1">Best Selling</option>
+<option value="2">Name A-Z</option>
+<option value="3">Name Z-A</option>
+<option value="4">Price, low to hight</option>
+<option value="5">Price, high to low</option>
+<option value="6">New</option>
+</select>
+</div>
+</span>
+  
+    
+    
+</div>
+<!-- heading -->
+<!-- buying sections -->
+<div class="container d-flex mt-5 ">
+    <div class="col-4 d-none d-lg-block ">
+        <h5   style="font-weight:800; font-size: 18px; "><a href="">CATEGORIES</a></h5>
+     <h5 style="font-size: 15px;" > <a href="/splitac.html">Split Ac</a></h5>
+     <h5 style="font-size: 15px;" > <a href="/casetteac.html">Casette Ac</a></h5>
+     <h5 style="font-size: 15px;" > <a href="/windowac.html">Window Ac</a></h5>
+           
+       
+       
+    </div>
+    <div class="col-12 col-lg-8">
+<!-- cards -->
+
+<div class="row card-group" style="justify-content: space-evenly;">
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+</div>
+<div class="row card-group" style="justify-content: space-evenly;">
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+    <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+    <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+      <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+    </button>
+    <div class="card-body" style="display:contents; justify-content: center;">
+      <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+      <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+      <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+    </div>
+  </div>
+</div>
+  
+<!-- cards -->
+
+    </div>
+</div>
+<!-- buying sections -->
+<!-- informations -->
+<div class="container mt-5 ">
+<div class="col-8 ms-auto d-none d-lg-block ">
+<h5 style="font-weight: 700; font-size: 40px; " >WINDOW-AC</h5>
+<p style="font-size: 20px;" >Rheem Cooling are considered as the best air-conditioners in Pakistan due to their revolutionary technology, innovative features, modern designs and ultimate cooling performance.</p>
+<p style="font-size: 20px;" >These are manufactured with the purpose to bring maximum comfort in the lives of our valued customers by providing the coolest and most energy efficient cooling solutions to upgrade subcontinental lifestyles. Orient air-conditioners are extremely ecofriendly and perfect for use in every season and at every place.</p>
+<p style="font-size: 20px;" >Its unmatched range of DC Inverters, specially Ultron E-Comfort DC Inverters, is clearly a winner due to its superior Ultron Technology, which ensures unbeatable cooling performance with compatibility to be operated in the Internet of Things (IoT) Environment. Orient E-Comfort DC Inverters offers an unprecedented user experience and a new way of operating air-conditioners.</p>
+<p style="font-size: 20px;" >Powerful performance paired with greater energy efficiencies, and ecofriendly Orient air-conditioners are the perfect choice for every home and business.</p>
+</div>
+<div class="col-12 d-block d-lg-none ">
+<h5 style="font-weight: 700; font-size: 40px; " >WINDOW-AC</h5>
+<p style="font-size: 20px;" >Rheem Cooling are considered as the best air-conditioners in Pakistan due to their revolutionary technology, innovative features, modern designs and ultimate cooling performance.</p>
+<p style="font-size: 20px;" >These are manufactured with the purpose to bring maximum comfort in the lives of our valued customers by providing the coolest and most energy efficient cooling solutions to upgrade subcontinental lifestyles. Orient air-conditioners are extremely ecofriendly and perfect for use in every season and at every place.</p>
+<p style="font-size: 20px;" >Its unmatched range of DC Inverters, specially Ultron E-Comfort DC Inverters, is clearly a winner due to its superior Ultron Technology, which ensures unbeatable cooling performance with compatibility to be operated in the Internet of Things (IoT) Environment. Orient E-Comfort DC Inverters offers an unprecedented user experience and a new way of operating air-conditioners.</p>
+<p style="font-size: 20px;" >Powerful performance paired with greater energy efficiencies, and ecofriendly Orient air-conditioners are the perfect choice for every home and business.</p>
+</div>
+
+    
+</div>
+<!-- informations -->
+<!-- footer -->
+<div class="navbar" style="background-color: rgb(202, 202, 202);margin-top: 100px;">
+  <div class="container" style="background-color: rgb(202, 202, 202);margin-bottom: 70px;">
+    <a class="navbar-brand col-12 col-lg-3 mb-3"href="#"><img src="assets/img/Black White Minimalist Letter RC Logo_pixian_ai.png" width="50%"  alt=""></a>
+    <div class="col-12 col-lg-2 mt-3 mt-lg-1" ><h5>Products</h5>
+    <a href="#" style="text-decoration: none;color: black;">Air Conditioner</a>
+    </div>
+    <div class="col-12 col-lg-2 mt-5"><h5>Company</h5>
+    <a href="FAQs.html" style="text-decoration: none;color: black;">FAQs</a>
+    <br>
+    <a href="Blog.html" style="text-decoration: none;color: black;">Blog</a>
+    <br>
+    <a href="contact.html" style="text-decoration: none;color: black;">Contact Us</a>
+    </div>
+    <div class="col-12 col-lg-2 mt-5 mt-lg-1" ><h5>FOLLOW US</h5>
+    <a href="#" style="text-decoration: none;color: black;"><i class="fa fa-facebook-f" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-twitter" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-youtube" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-linkedin" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-instagram" style="font-size:20px"></i></a>
+    </div>
+  </div>
+</div>
+<!-- /footer -->
+      
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="navbar-brand" href="#"><img src="assets/img/Black White Minimalist Letter RC Logo_pixian_ai.png" width="100%" height="60px"  alt=""></a>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5 class="modal-title" id="exampleModalLabel">Registered Customers</h5>
+          <p style="font-size: smaller;font-weight: 600;">If you have an account with us, please log in.</p>
+          <label>Email Address</label><br>
+          <a class="email" href="#"><i class="fa fa-user" style="font-size:15px"></i></a> 
+          <input class="email-t" type="email" name="email" id="username" required>
+          <br><br>
+          <label>Password</label><br>
+          <a class="email" href="#"><i class="fa fa-lock" style="font-size:15px"></i></a> 
+          <input class="email-t" type="password" name="password" id="username" required>
+          <br><br>
+          <input class="form-check-input  " type="checkbox" value="" id="form2Example31">
+          <label class="form-check-label" for="form2Example31">Remember me </label>
+          <br><br>
+          <button type="button" class="Login-bt mb-4">Login</button>
+          <div class="p" style="display: flex;">
+          <span style="width: 50%; display: flex;justify-content: left;"><a style="text-decoration: none;font-size: 15px;" href="#">Create an Account</a></span><span style="width: 50%; display: flex;justify-content: right;"><a style="text-decoration: none;color: red;font-size: 14px;" href="#">Forgot password?</a></span>
+        </div>
+          <br>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+        <!-- modal -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Rheem Cooling</title>
+    
+    <script>
+    
+     function jugaad(){
+        $(".search-input").hide();
+     }
+    function expandSearch() {
+        $(".search-input").toggle(2000);
+    }
+window.onload=jugaad
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+function openNa() {
+  document.getElementById("mySidena").style.width = "250px";
+}
+function closeNa() {
+  document.getElementById("mySidena").style.width = "0";
+}
+    </script>
+    
+  </head>
+  <style>
+    .U-card{
+  border: 2px solid black;
+  color: #000000;
+  background-color: white;
+}
+.U-card:hover{
+  background-color: rgb(60, 157, 248);
+  color: white;
+}
+.card-tile:hover{
+    color: rgb(28, 28, 255);
+}
+  </style>
+  <body>
+     <!-- <header> -->
+      <nav class="navbar navbar-expand-lg" style="border-bottom: 5px solid rgb(240, 240, 240);">
+        <div class="container-fluid">
+          <div id="mySidena" class="side-nav d-lg-none" style="z-index: 2;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNa()">&times;</a>
+                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                <li class="nav-item dropdown side-na">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style=" color: #ffffff;">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu side-n" aria-labelledby="navbarDropdown" style="background-color: black;">
+                    <li><a class="dropdown-item" href="#">Split AC</a></li>
+                    <li><a class="dropdown-item" href="#">Window AC</a></li>
+                    <li><a class="dropdown-item" href="#">Cassette AC</a></li>
+                  </ul>
+                </li>
+                <a class="nav-link active " aria-current="page" href="Blog.html">Blog</a>
+                <a class="nav-link active " aria-current="page" href="/FAQs.html">FAQs</a>
+                <a class="nav-link active " aria-current="page" href="/contact.html">Contact Us</a>
+          </div>
+          <span onclick="openNa()" class="d-lg-none"><img src="assets/img/icon-list.png" alt=""></span>
+          <div id="main" class="d-lg-none">
+          </div>
+          <!-- // -->
+          <a class="navbar-brand" href="#"><img src="assets/img/Black White Minimalist Letter RC Logo.png" width="100%" height="60px"  alt=""></a>
+          
+          <input type="text" class="block d-none d-lg-block" style="width: 50%;display: flex;margin-left: 32%;margin-bottom: 20px;border: none;border-bottom: 2px solid rgb(221, 221, 221);outline: none;" class="next d-none d-lg-block" placeholder="What are you looking?">
+          <form class="d-flex ms-auto " role="search">
+            <span>
+              <div class="search-container">
+                <input type="text" class="form-control search-input d-lg-none" placeholder="What are you looking?">
+                <button class="search-button" onclick="expandSearch()"><i class="fa fa-search"></i></button>
+              </div>
+            </span>
+                
+              <span> 
+                <button type="button" class="btn d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="assets/img/2014807-200.png" width="100%" height="20px" alt="">
+                </button>
+              </span>
+              <span class="d-none d-lg-block" style="margin-top: 8px;z-index: 2;" >
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <h5 class="modal-title" style="border-bottom: 5px solid rgb(240, 240, 240);padding-left: 10px;"id="exampleModalLabel"> Your Cart</h5>
+                  <p style="font-size: smaller;font-weight: 600;padding-left: 10px;">You have no items in your shopping cart.</p>
+                </div>
+                
+            
+                <span onclick="openNav()"><img src="assets/img/shopping-cart-icon-512x462-yrde1eu0.png" style="cursor: pointer;" width="55%" height="22px" alt=""></span>
+                
+               
+                <div id="main">
+                  
+                </div>
+              </span>
+            </form>
+          </div>
+        </nav>
+      <!-- </header>  -->
+<!-- <nav> -->
+  <nav class="navbar navbar-expand-lg d-none d-lg-block" style="position: sticky;top: 1px;background: white;z-index: 1;border-bottom: 5px solid rgb(245, 245, 245);">
+    <div class="container-fluid d-none d-lg-block" style="border-bottom: 5px solid rgb(240, 240, 240);">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" style="margin-left: 50px;">
+          <li class="nav-item">
+            <a class="nav-link active hc" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle hc" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+              Shop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="splitac.html">Split AC</a></li>
+              <li><a class="dropdown-item" href="windowac.html">Window AC</a></li>
+              <li><a class="dropdown-item" href="casetteac.html">Cassette AC</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active hc" aria-current="page" href="Blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active hc" aria-current="page" href="FAQs.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active hc" aria-current="page" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- </nav> -->
+<!-- Updates-page -->
+<div class="container">
+    <h4 class="mt-3" style="font-family: Arial, Helvetica, sans-serif;">Updates</h4>
+    <div class="d-none d-lg-block mt-4">
+        <a class="h-black" href="index.html" style="text-decoration: none;font-size: 12px;font-family: Arial, Helvetica, sans-serif;font-weight: 700;">HOME</a>
+        /
+        <a href="/FAQs.html" style="text-decoration: none;color: black;font-size: 12px;font-family: Arial, Helvetica, sans-serif;font-weight: 600;">UPDATES</a>
+    </div>
+    <div class="row mt-5" style="justify-content: space-evenly;">
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/8_2x_e3abcd7b-8db5-4cd2-a128-c5c1386e742e.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">Autopilot Modes in Rheemcooling Air Conditioner</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">What are the Autopilot Modes in Raheemcooling Air Conditioners?</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/eer_blog_cover.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">What is an inverter AC's Raheemcooling Air conditioners</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Energy Efficiency of an Air Conditioner: Raheemcooling Air conditioners...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/Inverter_AC_s_Stats_Facts_amp_Data_2x_96f6813e-ec54-494f-ae14-b9679a4899bd.jpg" class="card-img-top" alt="..." height="254px">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">Inverter Air Conditioner: A Few Interesting Facts</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Everything to Know About Your Inverter Air Conditioner We are very lucky that...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="justify-content: space-evenly;">
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/3_Some_Basic_Air_Conditioner_Error_Codes_and_What_they_Mean_2x_b88473ba-4740-4336-8702-3e68bd6ce255.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">Some Basic Air Conditioner Error Codes and What they Mean?</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Error Codes in Rheemcooling Air Conditioners Even if you have the best inverter...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/5_Question_to_Ask_before_Buying_an_Inverter_AC_2x_e10866af-4870-4519-b8cb-f1ffc005ec2d.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">5 Questions to Ask before Buying an Inverter Air Conditioner</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Things to Keep in Mind Before Buying an Inverter Air Conditioner One of...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/5_Common_Misconceptions_about_Inverter_Air_Conditioner_-_1_2x_a20394f1-9525-4803-be89-f7916b8bbc6c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">5 Common Misconceptions about inverter AC's Raheemcooling Air conditioners</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Top Myths about Inverter Air Conditioners Air Conditioners are one of the most...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="justify-content: space-evenly;">
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/save_energy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">How do DC Inverters Save Energy?</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">DC Inverter Air Conditioners and Energy-Saving: Everything You Can Do We have all...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/3rd_april_2x_b42b91a9-4280-4731-aabf-f9ffa2ec827f.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">Why Should you Clean your Air Conditioner?</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Cleanliness is key when it comes to the performance of an air conditioner....</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    <div class="card mt-5" style="width: 25rem;border: none;text-align: center;">
+        <img src="assets/img/6th_April_2x_a7772a62-80d3-42c1-ac6c-347a11f3617a.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-tile" style="font-size: 25px;font-weight: 350;">How to Fix Basic Air Conditioner Problems?</h5>
+          <p class="card-tex" style="color: rgb(107, 107, 107);font-size: 14px;">Troubleshooting your Air Conditioner to Fix Common Problems Your Air conditioner stopped working?...</p>
+          <a href="#" class="btn U-card">Read More</a>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- /Updates-page -->
+
+
+      <!-- footer -->
+<div class="navbar" style="background-color: rgb(202, 202, 202);margin-top: 100px;">
+    <div class="container" style="background-color: rgb(202, 202, 202);margin-bottom: 70px;">
+      <a class="navbar-brand col-12 col-lg-3 mb-3"href="#"><img src="assets/img/Black White Minimalist Letter RC Logo_pixian_ai.png" width="50%"  alt=""></a>
+      <div class="col-12 col-lg-2 mt-3 mt-lg-1" ><h5>Products</h5>
+      <a href="#" style="text-decoration: none;color: black;">Air Conditioner</a>
+      </div>
+      <div class="col-12 col-lg-2 mt-5"><h5>Company</h5>
+      <a href="/FAQs.html" style="text-decoration: none;color: black;">FAQs</a>
+      <br>
+      <a href="Blog.html" style="text-decoration: none;color: black;">Blog</a>
+      <br>
+      <a href="/contact.html" style="text-decoration: none;color: black;">Contact Us</a>
+      </div>
+      <div class="col-12 col-lg-2 mt-5 mt-lg-1" ><h5>FOLLOW US</h5>
+      <a href="#" style="text-decoration: none;color: black;"><i class="fa fa-facebook-f" style="font-size:20px"></i></a>
+      <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-twitter" style="font-size:20px"></i></a>
+      <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-youtube" style="font-size:20px"></i></a>
+      <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-linkedin" style="font-size:20px"></i></a>
+      <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-instagram" style="font-size:20px"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- /footer -->
+  
+  
+  
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="navbar-brand" href="#"><img src="assets/img/Black White Minimalist Letter RC Logo_pixian_ai.png" width="100%" height="60px"  alt=""></a>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-title" id="exampleModalLabel">Registered Customers</h5>
+            <p style="font-size: smaller;font-weight: 600;">If you have an account with us, please log in.</p>
+            <label>Email Address</label><br>
+            <a class="email" href="#"><i class="fa fa-user" style="font-size:15px"></i></a> 
+            <input class="email-t" type="email" name="email" id="username" required>
+            <br><br>
+            <label>Password</label><br>
+            <a class="email" href="#"><i class="fa fa-lock" style="font-size:15px"></i></a> 
+            <input class="email-t" type="password" name="password" id="username" required>
+            <br><br>
+            <input class="form-check-input  " type="checkbox" value="" id="form2Example31">
+            <label class="form-check-label" for="form2Example31">Remember me </label>
+            <br><br>
+            <button type="button" class="Login-bt mb-4">Login</button>
+            <div class="p" style="display: flex;">
+            <span style="width: 50%; display: flex;justify-content: left;"><a style="text-decoration: none;font-size: 15px;" href="#">Create an Account</a></span><span style="width: 50%; display: flex;justify-content: right;"><a style="text-decoration: none;color: red;font-size: 14px;" href="#">Forgot password?</a></span>
+          </div>
+            <br>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+          <!-- modal -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+  </html>

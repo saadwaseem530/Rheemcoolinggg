@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Rheem Cooling</title>
+    
+    <script>
+    
+     function jugaad(){
+        $(".search-input").hide();
+     }
+    function expandSearch() {
+        $(".search-input").toggle(2000);
+    }
+window.onload=jugaad
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+function openNa() {
+  document.getElementById("mySidena").style.width = "250px";
+}
+function closeNa() {
+  document.getElementById("mySidena").style.width = "0";
+}
+    </script>
+    
+  </head>
+  <body>
+    <!-- <header> -->
+      <nav class="navbar navbar-expand-lg" style="border-bottom: 5px solid rgb(240, 240, 240);">
+        <div class="container-fluid">
+          <div id="mySidena" class="side-nav d-lg-none" style="z-index: 2;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNa()">&times;</a>
+                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                <li class="nav-item dropdown side-na">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style=" color: #ffffff;">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu side-n" aria-labelledby="navbarDropdown" style="background-color: black;">
+                    <li><a class="dropdown-item" href="splitac.html">Split AC</a></li>
+                    <li><a class="dropdown-item" href="windowac.html">Window AC</a></li>
+                    <li><a class="dropdown-item" href="casetteac.html">Cassette AC</a></li>
+                  </ul>
+                </li>
+                <a class="nav-link active " aria-current="page" href="Blog.html">Blog</a>
+                <a class="nav-link active " aria-current="page" href="FAQs.html">FAQs</a>
+                <a class="nav-link active " aria-current="page" href="contact.html">Contact Us</a>
+          </div>
+          <span onclick="openNa()" class="d-lg-none"><img src="assets/img/icon-list.png" alt=""></span>
+          <div id="main" class="d-lg-none">
+          </div>
+          <!-- // -->
+          <a class="navbar-brand" href="#"><img src="assets/img/Black White Minimalist Letter RC Logo.png" width="100%" height="60px"  alt=""></a>
+          
+          <input type="text" class="block d-none d-lg-block" style="width: 50%;display: flex;margin-left: 32%;margin-bottom: 20px;border: none;border-bottom: 2px solid rgb(221, 221, 221);outline: none;" class="next d-none d-lg-block" placeholder="What are you looking?">
+          <form class="d-flex ms-auto " role="search">
+            <span>
+              <div class="search-container">
+                <input type="text" class="form-control search-input d-lg-none" placeholder="What are you looking?">
+                <button class="search-button" onclick="expandSearch()"><i class="fa fa-search"></i></button>
+              </div>
+            </span>
+                
+              <span> 
+                <button type="button" class="btn d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="assets/img/2014807-200.png" width="100%" height="20px" alt="">
+                </button>
+              </span>
+              <span class="d-none d-lg-block" style="margin-top: 8px;z-index: 2;" >
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <h5 class="modal-title" style="border-bottom: 5px solid rgb(240, 240, 240);padding-left: 10px;"id="exampleModalLabel"> Your Cart</h5>
+                  <p style="font-size: smaller;font-weight: 600;padding-left: 10px;">You have no items in your shopping cart.</p>
+                </div>
+                
+            
+                <span onclick="openNav()"><img src="assets/img/shopping-cart-icon-512x462-yrde1eu0.png" style="cursor: pointer;" width="55%" height="22px" alt=""></span>
+                
+               
+                <div id="main">
+                  
+                </div>
+              </span>
+            </form>
+          </div>
+        </nav>
+      <!-- </header>  -->
+      <!-- <nav> -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block" style="position: sticky;top: 1px;background: white;z-index: 1;border-bottom: 5px solid rgb(245, 245, 245);">
+          <div class="container-fluid d-none d-lg-block" style="border-bottom: 5px solid rgb(240, 240, 240);">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" style="margin-left: 50px;">
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle hc" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="splitac.html">Split AC</a></li>
+                    <li><a class="dropdown-item" href="windowac.html">Window AC</a></li>
+                    <li><a class="dropdown-item" href="casetteac.html">Cassette AC</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="FAQs.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hc" aria-current="page" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!-- </nav> -->
+      <!-- slider -->
+      <div  style="z-index: 0;" id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel" >
+        <div class="carousel-inner">  
+          <div class="carousel-item active">
+            <img src="assets/img/e-Comfort_Airconditioner final.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/Ultron-AC-1_dc2895cb-d1e9-4de9-8852-70c7c5c6e6ce.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/Floor_standing-desktop.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- /slider -->
+       <!-- card -->
+                    <div class="container page-section">
+                        <h2 class="section-title mb-5"><span>Top Selling AC</span></h2>
+                        <div class="row card-group" style="justify-content: space-evenly;">
+                          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+                            <img src="assets/img/th (1).jpg" class="card-img-top" alt="ac image">
+                            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+                              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+                            </button>
+                            <div class="card-body" style="display:contents; justify-content: center;">
+                              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+                              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+                              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+                            </div>
+                          </div>
+                          <!-- card -->
+                          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+                            <img src="assets/img/UltronEvaWhite_17d146d3-a70a-48b6-a450-f97f7d4f945a_large.jpg" class="card-img-top" alt="ac image">
+                            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#eampModal">
+                              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+                            </button>
+                            <div class="card-body" style="display:contents; justify-content: center;">
+                              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+                              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+                              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+                            </div>
+                          </div>
+                          <!-- card -->
+                          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+                            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+                            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+                              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+                            </button>
+                            <div class="card-body" style="display:contents; justify-content: center;">
+                              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+                              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+                              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+                            </div>
+                          </div>
+                          <!-- card -->
+                          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+                            <img src="assets/img/UltronLunarGold_large.jpg" class="card-img-top" alt="ac image">
+                            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModl">
+                              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+                            </button>
+                            <div class="card-body" style="display:contents; justify-content: center;">
+                              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+                              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+                              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    <!-- /card -->
+       <!-- card 2 -->
+       <div class="container page-section">
+        <h2 class="section-title mb-5"><span>Window AC</span></h2>
+        <div class="row card-group" style="justify-content: space-evenly;">
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/th.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampMdal">
+              <span class="icon-view" style="margin-top: 75px;"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/90465_1000x1000.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#examModal">
+              <span class="icon-view" style="margin-top: 75px;"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/4671375f-fb65-4a92-92f9-156f9fb22de1_1.bb2bc68ff41b33d282adcc2415829d5c.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#xampModal">
+              <span class="icon-view" style="margin-top: 75px;"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>           
+             </div>
+          </div>
+          
+           <!-- card -->
+           <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/maxresdefault.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#eamModl">
+              <span class="icon-view" style="margin-top: 75px;"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>            
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- /card 2 -->
+       <!-- card 3 -->
+       <div class="container page-section">
+        <h2 class="section-title mb-5"><span>Split AC</span></h2>
+        <div class="row card-group" style="justify-content: space-evenly;">
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronEvaWhite_17d146d3-a70a-48b6-a450-f97f7d4f945a_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+             <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- /card 3 -->
+       <!-- card 4 -->
+       <div class="container page-section">
+        <h2 class="section-title mb-5"><span>Cassette AC</span></h2>
+        <div class="row card-group" style="justify-content: space-evenly;">
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+             <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card d-flex col-6 col-lg-3" style="border: none;position:relative;align-items: center;">
+            <img src="assets/img/UltronSupereComfortMirrorBlackDCInverter_large.jpg" class="card-img-top" alt="ac image">
+            <button type="button" class="btn " style="position: absolute;display: flex; outline: none;" data-bs-toggle="modal" data-bs-target="#exampModal">
+              <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
+            </button>
+            <div class="card-body" style="display:contents; justify-content: center;">
+              <h5 class="card-title mt-3" style=" font-weight: 700;">1 Ton Ultron Mirror...</h5>
+              <p class="card-text mt-2" style="font-weight: bold;">Rs.151,000</p>
+              <a href="#" class="Cart btn mt-2 mb-2">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- /card 4 -->
+          
+ <!-- Modal-card1 -->
+ <div class="modal fade" id="exampModal" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/th (1).jpg" style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card1 -->
+ <!-- Modal-card2 -->
+ <div class="modal fade" id="eampModal" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/UltronEvaWhite_17d146d3-a70a-48b6-a450-f97f7d4f945a_large.jpg" style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card2 -->
+ <!-- Modal-card3 -->
+ <div class="modal fade" id="exampModl" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/UltronLunarGold_large.jpg" style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card3 -->
+ <!-- Modal-card1.1 -->
+ <div class="modal fade" id="exampMdal" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/th.jpg" style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card1.1 -->
+ <!-- Modal-card1.2 -->
+ <div class="modal fade" id="examModal" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/90465_1000x1000.jpg" style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card1.2 -->
+ <!-- Modal-card1.3 -->
+ <div class="modal fade" id="xampModal" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/4671375f-fb65-4a92-92f9-156f9fb22de1_1.bb2bc68ff41b33d282adcc2415829d5c.jpg" style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card1.3 -->
+ <!-- Modal-card1.4 -->
+ <div class="modal fade" id="eamModl" tabindex="-1" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mt-5 mb-5">
+        <img src="assets/img/maxresdefault.jpg"style="width: 100%;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal-card1.4 -->
+
+<!-- footer -->
+<div class="navbar" style="background-color: rgb(202, 202, 202);margin-top: 100px;">
+  <div class="container" style="background-color: rgb(202, 202, 202);margin-bottom: 70px;">
+    <a class="navbar-brand col-12 col-lg-3 mb-3"href="#"><img src="assets/img/Black White Minimalist Letter RC Logo_pixian_ai.png" width="50%"  alt=""></a>
+    <div class="col-12 col-lg-2 mt-3 mt-lg-1" ><h5>Products</h5>
+    <a href="#" style="text-decoration: none;color: black;">Air Conditioner</a>
+    </div>
+    <div class="col-12 col-lg-2 mt-5"><h5>Company</h5>
+    <a href="FAQs.html" style="text-decoration: none;color: black;">FAQs</a>
+    <br>
+    <a href="Blog.html" style="text-decoration: none;color: black;">Blog</a>
+    <br>
+    <a href="contact.html" style="text-decoration: none;color: black;">Contact Us</a>
+    </div>
+    <div class="col-12 col-lg-2 mt-5 mt-lg-1" ><h5>FOLLOW US</h5>
+    <a href="#" style="text-decoration: none;color: black;"><i class="fa fa-facebook-f" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-twitter" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-youtube" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-linkedin" style="font-size:20px"></i></a>
+    <a href="#" style="text-decoration: none;color: black;margin-left: 10px;"><i class="fa fa-instagram" style="font-size:20px"></i></a>
+    </div>
+  </div>
+</div>
+<!-- /footer -->
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="navbar-brand" href="#"><img src="assets/img/Black White Minimalist Letter RC Logo_pixian_ai.png" width="100%" height="60px"  alt=""></a>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5 class="modal-title" id="exampleModalLabel">Registered Customers</h5>
+          <p style="font-size: smaller;font-weight: 600;">If you have an account with us, please log in.</p>
+          <label>Email Address</label><br>
+          <a class="email" href="#"><i class="fa fa-user" style="font-size:15px"></i></a> 
+          <input class="email-t" type="email" name="email" id="username" required>
+          <br><br>
+          <label>Password</label><br>
+          <a class="email" href="#"><i class="fa fa-lock" style="font-size:15px"></i></a> 
+          <input class="email-t" type="password" name="password" id="username" required>
+          <br><br>
+          <input class="form-check-input  " type="checkbox" value="" id="form2Example31">
+          <label class="form-check-label" for="form2Example31">Remember me </label>
+          <br><br>
+          <button type="button" class="Login-bt mb-4">Login</button>
+          <div class="p" style="display: flex;">
+          <span style="width: 50%; display: flex;justify-content: left;"><a style="text-decoration: none;font-size: 15px;" href="#">Create an Account</a></span><span style="width: 50%; display: flex;justify-content: right;"><a style="text-decoration: none;color: red;font-size: 14px;" href="#">Forgot password?</a></span>
+        </div>
+          <br>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+        <!-- modal -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
